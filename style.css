@@ -1,0 +1,27 @@
+/*
+ProSoft Programming Test
+Monthly Calendar
+*/
+.table-responsive {
+    border: 2px solid #fff !important;
+}
+td, th {
+    border: 2px solid #fff;
+    border-bottom: 2px solid #fff !important;
+    text-align: center;
+}
+.mth-head {
+    background-color: #E2FAC8;
+}
+.gr {
+    background-color: #CDEDAB;
+}
+.gy {
+    background-color: #ddd;
+}
+.ye {
+    background-color: yellow;
+}
+.og {
+    background-color: #E0840B;
+}

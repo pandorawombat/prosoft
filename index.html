@@ -8,7 +8,10 @@ Monthly Calendar
         <title>Dynamic Calendar</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap 3x: Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- my custom css -->
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
         <header>
@@ -32,6 +35,80 @@ Monthly Calendar
             </form>
         </div>
         
-        
+        <!--receiving div for the ajax calendar result-->
+        <div id="calendar" class="col-xs-6 col-xs-offset-3">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th class="text-center">S</th>
+                        <th class="text-center">M</th>
+                        <th class="text-center">T</th>
+                        <th class="text-center">W</th>
+                        <th class="text-center">T</th>
+                        <th class="text-center">F</th>
+                        <th class="text-center">S</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="text-center mth-head">August 2016</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="gy"></td>
+                        <td class="gr">1</td>
+                        <td class="gr">2</td>
+                        <td class="gr">3</td>
+                        <td class="gr">4</td>
+                        <td class="gr">5</td>
+                        <td class="ye">6</td>
+                    </tr>
+                    <tr>
+                        <td class="ye">7</td>
+                        <td class="gr">8</td>
+                        <td class="gr">9</td>
+                        <td class="gr">10</td>
+                        <td class="gr">11</td>
+                        <td class="gr">12</td>
+                        <td class="ye">13</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th class="text-center">S</th>
+                        <th class="text-center">M</th>
+                        <th class="text-center">T</th>
+                        <th class="text-center">W</th>
+                        <th class="text-center">T</th>
+                        <th class="text-center">F</th>
+                        <th class="text-center">S</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="text-center mth-head">August 2016</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="gy"></td>
+                        <td class="gr">1</td>
+                        <td class="gr">2</td>
+                        <td class="gr">3</td>
+                        <td class="gr">4</td>
+                        <td class="gr">5</td>
+                        <td class="ye">6</td>
+                    </tr>
+                    <tr>
+                        <td class="ye">7</td>
+                        <td class="gr">8</td>
+                        <td class="gr">9</td>
+                        <td class="gr">10</td>
+                        <td class="gr">11</td>
+                        <td class="gr">12</td>
+                        <td class="ye">13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
